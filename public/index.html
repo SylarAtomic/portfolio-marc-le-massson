@@ -1,123 +1,378 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Scrolling Nav - Start Bootstrap Template</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/scrolling-nav.css" rel="stylesheet">
-
-</head>
-
-<body id="page-top">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#professional">Professional</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#personal">Personal</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <header class="bg-primary text-white">
-    <div class="container text-center">
-      <h1>Marc Le Masson</h1>
-      <p class="lead">Portfolio</p>
-    </div>
-  </header>
-
-  <section id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>About this page</h2>
-          <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
-          <ul>
-            <li>Clickable nav links that smooth scroll to page sections</li>
-            <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-            <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-            <li>Minimal custom CSS so you are free to explore your own unique design options</li>
-          </ul>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio - Marc Le Masson</title>
+    <meta name="description" content="Welcome to my portfolio. The design I used can be found at http://www.bootstrapzero.com/theme/landing-zero/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Codeply">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <link rel="stylesheet" href="./css/ionicons.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#first"><i class="ion-ios-analytics-outline"></i> Landing Zero</a>
+            </div>
+            <div class="navbar-collapse collapse" id="bs-navbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="page-scroll" href="#one">Welcome</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#two">Tools</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#three">Games</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#four">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#last">Qualifications</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" data-toggle="modal" title="Portfolio - Marc Le Masson" href="#aboutModal">About</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="services" class="bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Services we offer</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+    </nav>
+    <header id="first">
+        <div class="header-content">
+            <div class="inner">
+                <h1 class="cursive">Marc Le Masson</h1>
+                <h4>Portfolio</h4>
+                <hr>
+                     <a href="#one" class="btn btn-primary btn-xl page-scroll">Welcome</a>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="personal">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Personal</h2>
-          <p class="lead">These are some of the projects I've worked on in my personal time.</p>
-<ul><li>React.js dashboard that displays the following data in tiles:
-  <ul>
-<li>Weather</li>
-<li>Ethereum Mining Rates for my personal miner.</li>
-<li>COVID-19 Graph (Not showing data as the free API key has reach the maximum number of calls)</li>
-<li>Exchange Rates (ZAR, EUR, USD, GBP)</li>
-</ul></li>
-<li>Slack Bot - </li>
-<li>Text Reader</li>
-<li>IoT Dashboard</li>
-</ul>
+        <video autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Traffic-blurred2.jpg" id="video-background">
+            <source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Traffic-blurred2.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+    </header>
+    <section class="bg-primary" id="one">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
+                    <h2 class="margin-top-0 text-primary">Welcome</h2>
+                    <br>
+                    <p class="text-faded">
+                        I have been working as a Game Developer for Habanero Systems since 1st April 2019. While working at Habanero, 
+                        I have worked on more than 25 games from design and development, maintenance, bug fixes and improvements to our older games. 
+                        Additionally, I was part of the team that converted older HTML table games to utilize Pixi.js.
+                    </p>
+                    <a href="#three" class="btn btn-default btn-xl page-scroll">View Games</a>
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
+    <section id="two">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="margin-top-0 text-primary">Tools</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 text-center">
+                    <div class="feature">
+                        <h3>IDE</h3>
+                        <ul class="trippleList">
+                            <li class="liTools">WebStorm</li>
+                            <li class="liTools">Visual Studio 2019</li>
+                            <li class="liTools">Visual Studio Code</li>
+                            <li class="liTools">Notepad ++</li>
+                        </ul></li>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 text-center">
+                    <div class="feature">
+                        <h3>Libraries</h3>
+                        <ul  class="trippleList">
+                            <li>Node.js</li>
+                            <li>PIXI.js</li>
+                            <li>GSAP</li>
+                            <li>Knockout.js</li>
+                            <li>Electron.js</li>
+                        </ul></li>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 text-center">
+                    <div class="feature">
+                        <h3>Source Control</h3>
+                        <ul  class="trippleList">
+                            <li>SVN</li>
+                            <li>GitHub Desktop</li>
+                        </ul></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="three" class="bg-primary">
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
+            <h2 class="margin-top-0 text-primary">Games</h2>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/ChristmasGiftRush.png">
+                        <img src="./assets/ChristmasGiftRush.png" class="img-responsive" alt="Image 1">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal2" class="gallery-box" data-toggle="modal" data-src="./assets/beach.jpg">
+                        <img src="./assets/beach.jpg" class="img-responsive" alt="Image 2">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+				<div class="clearfix hidden-lg"> </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/lake.jpg">
+                        <img src="./assets/lake.jpg" class="img-responsive" alt="Image 3">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/bike.jpg">
+                        <img src="./assets/bike.jpg" class="img-responsive" alt="Image 4">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+				<div class="clearfix hidden-lg"> </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/city.jpg">
+                        <img src="./assets/city.jpg" class="img-responsive" alt="Image 5">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/colors.jpg">
+                        <img src="./assets/colors.jpg" class="img-responsive" alt="Image 6">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-dark" id="four">
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
+            <h2 class="margin-top-0 text-primary">Projects</h2>
+        </div>
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+                <div class="container">
+                    <div class="row">
+                      <div class="col-lg-8 mx-auto">
+                        <p class="lead">These are some of the projects I've worked on in my personal time.</p>
+                        <ul><li>React.js <a href="https://home-dashboard-f9441.web.app/" target="_blank">dashboard</a> that displays the following data in tiles:
+                        <ul>
+                            <li>Weather</li>
+                            <li>Ethereum Mining Rates for my personal miner.</li>
+                            <li>COVID-19 Graph (Not showing data as the free API key has reach the maximum number of calls)</li>
+                            <li>Exchange Rates (ZAR, EUR, USD, GBP)</li>
+                        </ul></li>
+                        <li>Slack Bot - Send an image to a channel with a command and the bot will detect the face in the image, 
+                            determine their emotional expression, match that to an emoji and return the images, replacing faces 
+                            with the corresponding emoji. This was done using the Microsoft Azure Emotion Detection API</li>
+                        <li>Text Reader - Web page that allows you to submit an image URL, reads text in the image and 
+                            transcribes for return to the user. This is done using Microsoft Azure Text Analytics API.</li>
+                        <li>IoT Dashboard - Raspberry PI thermometer linked to Microsoft Azure IoT Central dashboard</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-8 mx-auto">
+                    <h3 class="text-center">Work Projects</h3>
+                    <ul><li>Node.js - Dummy server to help the team build games when dummy games are copied. Basic functions such as ‘Random Spin’, ‘Wild Trigger’, ‘Big Win Trigger’ and ‘Feature Trigger’</li>
+                    <li>Electron - Game size check //TODO</li>
+                </ul>
+                </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <section id="last">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="margin-top-0 text-primary">Qualifications</h2>
+                    <hr class="primary">
+                    <div>
+                    <h3>Degree</h3>
+                    <P>Bachelor of Science (B.Sc.) from UNISA</P>
+                    </div>
+                    <div>
+                    <h3>Certifications</h3>
+                    <p class="text-left underHeading"><b>Certificate of Completion</b></p><p class="text-left">Unreal Engine C++ Developer: Learn C++ and Make Video Games - Udemy.com</p>
+                    <p class="text-left underHeading"><b>Certificate of Completion</b></p><p class="text-left">Master Electron: Desktop Apps with HTML, JavaScript & CSS - Udemy.com</p>
+                    <p class="text-left underHeading"><b>Certificate of Completion</b></p><p class="text-left">The complete JavaScript Course 2018: Build real projects. 26.5 hours. Udemy.com</p>
+                    <p class="text-left underHeading"><b>Certificate of Completion</b></p><p class="text-left">Developing with Node.js on Microsoft Azure - Getting Started - Pluralsight.com</p>
+                    <p class="text-left underHeading"><b>Certificate of Completion</b></p><p class="text-left">REST API Design, Development & Management - Udemy.com</p>
+                    <p class="text-left underHeading"><b>Certificate of Completion</b></p><p class="text-left">Build Responsive Real World Websites with HTM5 and CSS3 - Udemy.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-6 col-sm-3 column">
+                    <h4>Information</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Benefits</a></li>
+                        <li><a href="">Developers</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-sm-3 column">
+                    <h4>About</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Delivery Information</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms &amp; Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-3 column">
+                    <h4>Stay Posted</h4>
+                    <form>
+                        <div class="form-group">
+                          <input type="text" class="form-control" title="No spam, we promise!" placeholder="Tell us your email">
+                        </div>
+                        <div class="form-group">
+                          <button class="btn btn-primary" data-toggle="modal" data-target="#alertModal" type="button">Subscribe for updates</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-xs-12 col-sm-3 text-right">
+                    <h4>Follow</h4>
+                    <ul class="list-inline">
+                      <li><a rel="nofollow" href="" title="Twitter"><i class="icon-lg ion-social-twitter-outline"></i></a>&nbsp;</li>
+                      <li><a rel="nofollow" href="" title="Facebook"><i class="icon-lg ion-social-facebook-outline"></i></a>&nbsp;</li>
+                      <li><a rel="nofollow" href="" title="Dribble"><i class="icon-lg ion-social-dribbble-outline"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <br/>
+            <span class="pull-right text-muted small"><a href="http://www.bootstrapzero.com">Landing Zero by BootstrapZero</a> ©2015 Company</span>
+        </div>
+    </footer>
+    <!-- All the GAMES go HERE!-->
+    <div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        	<div class="modal-body">
+        		<img src="" id="galleryImage" class="img-responsive" />
+        		<p>
+                    <p>Hello</p>
+        		    <br/>
+        		    <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close<i class="ion-android-close"></i></button>
+        		</p>
+        	</div>
+        </div>
+        </div>
     </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+    <div id="galleryModal2" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <h2>TEST!</h2>
+            <p>This is a test!</p>
+        </div>
+        </div>
     </div>
-    <!-- /.container -->
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom JavaScript for this theme -->
-  <script src="js/scrolling-nav.js"></script>
-
-</body>
-
+    <div id="aboutModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+        	<div class="modal-body">
+        		<h2 class="text-center">Landing Zero Theme</h2>
+        		<h5 class="text-center">
+        		    A free, responsive landing page theme built by BootstrapZero.
+        		</h5>
+        		<p class="text-justify">
+        		    This is a single-page Bootstrap template with a sleek dark/grey color scheme, accent color and smooth scrolling.
+        		    There are vertical content sections with subtle animations that are activated when scrolled into view using the jQuery WOW plugin. There is also a gallery with modals
+        		    that work nicely to showcase your work portfolio. Other features include a contact form, email subscribe form, multi-column footer. Uses Questrial Google Font and Ionicons.
+        		</p>
+        		<p class="text-center"><a href="http://www.bootstrapzero.com">Download at BootstrapZero</a></p>
+        		<br/>
+        		<button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true"> OK </button>
+        	</div>
+        </div>
+        </div>
+    </div>
+    <div id="alertModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+        	<div class="modal-body">
+        		<h2 class="text-center">Nice Job!</h2>
+        		<p class="text-center">You clicked the button, but it doesn't actually go anywhere because this is only a demo.</p>
+        		<p class="text-center"><a href="http://www.bootstrapzero.com">Learn more at BootstrapZero</a></p>
+        		<br/>
+        		<button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">OK <i class="ion-android-close"></i></button>
+        	</div>
+        </div>
+        </div>
+    </div>
+    <!--scripts loaded here -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.easing.min.js"></script>
+    <script src="./js/wow.js"></script>
+    <script src="./js/scripts.js"></script>
+  </body>
 </html>
