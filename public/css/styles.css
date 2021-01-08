@@ -130,6 +130,19 @@ footer {
   padding: 0;
 }
 
+.modalImage {
+  width: 200px;
+  height: auto;
+}
+
+.modalContainer {
+  width: inherit;
+}
+
+.afterButton {
+  margin-bottom: 5px;
+}
+
 .navbar-default {
   border-color: rgba(35, 35, 35, 0.05);
   font-family: "Questrial", "Helvetica Neue", Arial, sans-serif;
