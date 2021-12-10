@@ -124,6 +124,17 @@ section {
   padding: 70px 0;
 }
 
+.sectionGamesBottom {
+  padding-top: 70px;
+  padding-bottom: 0px;
+  min-height: 290px;
+}
+
+.sectionGamesTop {
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
 aside {
   padding: 50px 0;
 }
@@ -188,7 +199,7 @@ footer {
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 20px;
   font-weight: 700;
   color: #eee;
 }
@@ -363,8 +374,8 @@ footer {
   }
 
   section {
-    min-height: 600px;
-    padding: 100px 0;
+    min-height: 450px;
+    padding: 75px 0;
   }
 }
 
