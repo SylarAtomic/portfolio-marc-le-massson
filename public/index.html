@@ -43,10 +43,13 @@
 						<a class="page-scroll" href="#three">Habanero Systems</a>
                     </li>
 					<li>
-						<a class="page-scroll" href="#four">Tools</a>
+						<a class="page-scroll" href="#four">My Games</a>
+                    </li>
+					<li>
+						<a class="page-scroll" href="#five">Tools</a>
 					</li>
                     <li>
-                        <a class="page-scroll" href="#five">Projects</a>
+                        <a class="page-scroll" href="#six">Projects</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#last">Qualifications</a>
@@ -143,7 +146,6 @@
                         </div>
                     </a>
                 </div>
-
                 <div class="clearfix hidden-lg"> </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="#galleryModalLoonyBlox" class="gallery-box" data-toggle="modal"
@@ -236,7 +238,69 @@
             </div>
         </div>
     </section>
-	<section id="four" class="bg-dark">
+
+    <section id="four" class="sectionGamesBottom bg-dark">
+        <div class="container">
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
+            <h2 class="margin-top-0 text-primary">My Game Dev</h2>
+            <hr>
+            <div class="row">
+            <p class="text-faded">
+                While at Habanero Systems, I worked on more than 25 games from design and development, maintenance, bug fixes as well
+                improving our older games.
+                Additionally, I was part of the team that converted older HTML table games to utilize Pixi.js.
+            </p>
+         </div>
+        </div>
+    </section>
+
+    <section class="bg-dark sectionMyGamesTop">
+
+		<div class="container-fluid">
+            <div class="row no-gutter">
+				<div class="col-lg-4 col-sm-6">
+					<a href="#galleryModalMemoryGame" class="gallery-box" data-toggle="modal">
+						<img src="./assets/AdventureMemory.jpg" class="img-responsive" alt="Jellyfish Flow">
+						<div class="gallery-box-caption">
+							<div class="gallery-box-content">
+								<div>
+									<i class="icon-lg ion-ios-search"></i>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<a href="#galleryModalMatchThree" class="gallery-box" data-toggle="modal">
+						<img src="./assets/MatchThree.jpg" class="img-responsive" alt="Knockout Football Rush">
+						<div class="gallery-box-caption">
+							<div class="gallery-box-content">
+								<div>
+									<i class="icon-lg ion-ios-search"></i>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<a href="#galleryModalUnrealMatchGame" class="gallery-box" data-toggle="modal"
+						data-src="./assets/colors.jpg">
+						<img src="./assets/JumpFlip.jpg" class="img-responsive" alt="Calaveras Explosivas">
+						<div class="gallery-box-caption">
+							<div class="gallery-box-content">
+								<div>
+									<i class="icon-lg ion-ios-search"></i>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				</div>
+            </div>
+        </div>
+    </section>
+
+	<section id="five">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -296,7 +360,8 @@
             </div>
         </div>
     </section>
-        <section class="container-fluid" id="five" class="bg-primary">
+    
+	<section class="container-fluid bg-dark bg-primary" id="six" >
             <div class="row">
         <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
             <h2 class="margin-top-0 text-primary">Projects</h2>
@@ -393,7 +458,8 @@
             </div>
         </div>
     </section>
-    <section id="last" class="bg-dark">
+
+    <section id="last" class="">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -422,7 +488,7 @@
             </div>
         </div>
     </section>
-    <footer id="footer">
+    <footer id="footer" class="bg-dark bg-primary">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-6 col-sm-3 column">
@@ -545,6 +611,76 @@
                         <li>Implemented Spine Runtime symbols animations provided by the design team</li>
                         <li>Built the boundary wall that restricts and determines where the symbols will move and
                             collect</li>
+                    </ul>
+                    <button class="btn btn-primary btn-lg center-block" data-dismiss="modal"
+                        aria-hidden="true">CLOSE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="galleryModalMemoryGame" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h2>Adventure Memory Game - React.js</h2>
+                    <p>An adventure memory match game with a range of difficulties going all the way up to 100 blocks (10 x 10).</p>
+                    <h3>Features</h3>
+                    <ul>
+						<li>Score and high score per difficulty</li>
+						<li>Multiple difficulties (Only two are implemented due to tile creation costing)</li>
+						<li>Win screen</li>
+						<li>Lightweight and Responsive</li>
+                        <li>Repeatable Game Loop</li>
+                    </ul>
+					<h3><a href="https://www.boredzone.app/" target="_blank">Boredzone App</a></h3>
+                    <button class="btn btn-primary btn-lg center-block" data-dismiss="modal"
+                        aria-hidden="true">CLOSE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div id="galleryModalMatchThree" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h2>Match Three - C++</h2>
+                    <p>Match three style game where the objective is to try and get as high a score in only 10 turns. Project is written in C++ and used SDL2 as the graphics library.</p>
+                    <h3>Features</h3>
+                    <ul>
+                        <li>10 by 10 Grid</li>
+						<li>Matches horizontally and vertically</li>
+						<li>Minimum of 3+ valid starting pairs</li>
+						<li>1 point per gem removed</li>
+						<li>Score created using images</li>
+						<li>Same type matching</li>
+						<li>Animated new blocks being added</li>
+                    </ul>
+					<p>Improvements I would make to the project:</p>
+					<ul>
+                        <li>Better detection of type blocks (Make it recursive)</li>
+						<li>Improve the remove code that deletes matched blocks</li>
+						<li>More block types (This would be a quick addition)</li>
+                    </ul>
+					<h3><a href="https://github.com/SylarAtomic/ThreeMatch" target="_blank">GitHub Project</a></h3>
+                    <button class="btn btn-primary btn-lg center-block" data-dismiss="modal"
+                        aria-hidden="true">CLOSE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div id="galleryModalUnrealMatchGame" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h2>Unreal Jump Match Game</h2>
+                    <h3>Currently under development</h3>
+                    <p>The concept for this game is that you can move a character over the tiles and press the jump key to flip the tile. The objective is to find all the matches in as little jumps as possible.</p>
+                    <h3>Features</h3>
+                    <ul>
+                        <li>Character jump flip the tile below (Implemented)</li>
+                        <li>Random match locations (In Dev)</li>
+                        <li>Score UI (In Dev)</li>
+                        <li>Add custom assets (In Dev)</li>
                     </ul>
                     <button class="btn btn-primary btn-lg center-block" data-dismiss="modal"
                         aria-hidden="true">CLOSE</button>
