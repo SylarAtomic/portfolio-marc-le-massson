@@ -152,6 +152,11 @@ footer {
   height: auto;
 }
 
+.modalImageLarge {
+	width: 400px;
+	height: auto;
+  }
+
 .gameTitleSpacing {
   padding-bottom: 20px;
 }
