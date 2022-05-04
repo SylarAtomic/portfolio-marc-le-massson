@@ -155,7 +155,19 @@ footer {
 .modalImageLarge {
 	width: 400px;
 	height: auto;
-  }
+}
+
+.modalImageMassive {
+	width: 600px;
+	height: auto;
+	padding: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+} 
+
+.beforButton {
+	padding-top: 10px;
+}
 
 .gameTitleSpacing {
   padding-bottom: 20px;
@@ -164,6 +176,10 @@ footer {
 .modalContainer {
   width: inherit;
 }
+
+.modalContainerOverride {
+	width: 1200px;
+ }
 
 .afterButton {
   margin-bottom: 5px;
@@ -552,6 +568,7 @@ fieldset[disabled] .btn-default.active {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
+  padding-top: 10px;
 }
 
 .btn.btn-primary:hover {
