@@ -157,6 +157,15 @@ footer {
 	height: auto;
 }
 
+.modalVideoLarge {
+	width: 595px;
+	height: 350px;
+}
+
+iframe {
+	border: none
+}
+
 .modalImageMassive {
 	width: 600px;
 	height: auto;
