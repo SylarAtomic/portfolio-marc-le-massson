@@ -102,7 +102,12 @@ li {
 .cursive {
   font-family: "Dancing Script", cursive;
   text-transform: none;
+  text-shadow: 1px 1px 1px rgba(60, 60, 60, 0.7);
 }
+
+.shadow {
+	text-shadow: 1px 1px 1px rgba(60, 60, 60, 0.7);
+  }
 
 .text-faded {
   color: rgba(245, 245, 245, 0.7);
@@ -316,7 +321,8 @@ header {
   color: #fff;
   width: 100%;
   background-color: #c9c9c9;
-  background-image: url("https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg");
+  /*background-image: url("https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg");*/
+  background-image: url("../assets/Background.jpg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -393,7 +399,7 @@ footer {
   }
 
   header .header-content .inner h1 {
-    font-size: 53px;
+    font-size: 70px;
   }
 
   header .header-content .inner p {
@@ -572,7 +578,7 @@ fieldset[disabled] .btn-default.active {
 
 .btn.btn-primary {
   background-color: transparent;
-  border: 1px solid #f0f0f0;
+  border: 3px solid #f0f0f0;
   border-color: #f0f0f0;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -588,6 +594,7 @@ fieldset[disabled] .btn-default.active {
   border: 0;
   border-radius: 290px;
   font-family: "Helvetica Neue", Arial, sans-serif;
+  text-shadow: 1px 1px 1px rgba(60, 60, 60, 0.7);
 }
 
 .btn-xl {
