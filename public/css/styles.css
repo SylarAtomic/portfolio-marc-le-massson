@@ -107,7 +107,11 @@ li {
 
 .shadow {
 	text-shadow: 1px 1px 1px rgba(60, 60, 60, 0.7);
-  }
+}
+
+.extra-padding {
+	padding-top: 10px;
+}
 
 .text-faded {
   color: rgba(245, 245, 245, 0.7);
