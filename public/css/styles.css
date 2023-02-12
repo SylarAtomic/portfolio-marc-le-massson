@@ -484,6 +484,54 @@ textarea {
   box-shadow: 8px 8px 3px #1b1b1b;
 }
 
+.gameInfoContainer {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	max-width: 650px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.infoTagContainer {
+	display: grid;
+	align-items: center;
+}
+.infoTagAll {
+	border-radius: 0.5rem;
+	margin-right: 1.5rem;
+}
+.infoTagCpp {
+	background-color: #c2185b;
+}
+
+.infoTagUnreal {
+	background-color: #276BB0;
+}
+
+.infoTagJS {
+	background-color: #77e0b5;
+}
+
+.infoTagReact {
+	background-color: #009688;
+}
+
+.infoTagSDL2 {
+	background-color: #272ab0;
+}
+
+.infoTagBlueprints {
+	background-color: #265787;
+}
+
+.infoTagQuixel {
+	background-color: #272ab0;
+}
+
+.infoTagBlender {
+	background-color: #EA7600
+}
+
 .gallery-box .gallery-box-caption {
   display: block;
   position: absolute;
