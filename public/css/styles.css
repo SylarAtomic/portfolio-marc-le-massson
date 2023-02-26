@@ -12,7 +12,6 @@ html,
 body {
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
 }
 
 body {
@@ -499,17 +498,19 @@ textarea {
 .infoTagAll {
 	border-radius: 0.5rem;
 	margin-right: 1.5rem;
+	text-align: center;
 }
+
 .infoTagCpp {
 	background-color: #c2185b;
 }
 
 .infoTagUnreal {
-	background-color: #276BB0;
+	background-color: #3e276e;
 }
 
 .infoTagJS {
-	background-color: #77e0b5;
+	background-color: #217906;
 }
 
 .infoTagReact {
@@ -529,7 +530,7 @@ textarea {
 }
 
 .infoTagBlender {
-	background-color: #EA7600
+	background-color: #c16100
 }
 
 .gallery-box .gallery-box-caption {
