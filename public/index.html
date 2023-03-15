@@ -419,6 +419,28 @@
 				</div>
 				<div class="col-lg-4 col-sm-6">
 					<div class="gameInfoContainer">
+						<a href="#galleryModalUnrealRocketRobot" class="gallery-box" data-toggle="modal"
+							data-src="./assets/colors.jpg">
+							<img src="./assets/Rocket Robot.jpg" class="img-responsive" alt="Rocket Robot">
+							<div class="gallery-box-caption">
+								<div class="gallery-box-content">
+									<div>
+										<i class="icon-lg ion-ios-search"></i>
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="container-fluid">
+							<div class="row flex">
+							<div class="col-sm-2 infoTagAll infoTagUnreal">UE5</div>
+							<div class="col-sm-2 infoTagAll infoTagCpp">C++</div>
+							<div class="col-sm-2 infoTagAll infoTagBlueprints">Blueprints</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="gameInfoContainer">
 						<a href="#galleryModalUnrealMatchGame" class="gallery-box" data-toggle="modal"
 							data-src="./assets/colors.jpg">
 							<img src="./assets/JumpFlip.jpg" class="img-responsive" alt="Unreal Match Game">
@@ -908,6 +930,32 @@
                     <button class="btn btn-primary btn-lg center-block" data-dismiss="modal"
                         aria-hidden="true">CLOSE</button>
                 </div>
+            </div>
+        </div>
+    </div>
+	<div id="galleryModalUnrealRocketRobot" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+					<h2>Rocket Robot - Unreal Engine 5</h2>
+					<p>Flappy bird remake in UE5. Written in C++ using assets from the <a href="https://www.unrealengine.com/marketplace/en-US/product/stack-o-bot" target="_blank">Stack-O-Bot</a> project.</p>
+					<h3>Features</h3>
+					<ul>
+						<li>Infinite game loop (Until the player crashes into an object)</li>
+						<li>Player stays still while the environment elements move past</li>
+						<li>Random pillar hight each time the pillar loops back</li>
+						<li>Pillar movement is controlled with a single Actor Tick</li>
+						<li>High score is persistent between new games</li>
+						<li>UMG menus and HUDs</li>
+						<li>Each pillar is broken up into three sections and only the middle section size changes. This prevents warping of the bottom and top section.</li>
+					</ul>
+					
+					<img src="./assets/Pillar Construction.jpg" class="img-responsive center-block modalImageLarge" alt="Started">
+					<br>
+					<p>Game will be available on Itch.io soon.</p>
+					<button class="btn btn-primary btn-lg center-block" data-dismiss="modal"
+						aria-hidden="true">CLOSE</button>
+				</div>
             </div>
         </div>
     </div>
